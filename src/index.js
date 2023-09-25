@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import logoImg from './assets/logo.png';
-
+import Config from "./Config";
 class MyGame extends Phaser.Scene
 {
     constructor ()
@@ -36,4 +36,4 @@ const config = {
     scene: MyGame
 };
 
-const game = new Phaser.Game(config);
+const game = new Phaser.Game(Config);
